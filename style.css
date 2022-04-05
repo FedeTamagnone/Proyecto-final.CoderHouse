@@ -1,0 +1,997 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Quicksand:wght@500;700&display=swap');
+
+@font-face {
+    font-family: brittany;
+    src: url(Tipografía/brittany_signature/BrittanySignature.ttf);
+}
+
+@font-face {
+    font-family: nefelibata;
+    src: url(Tipografía/Nefelibatas-canva/Nefelibata-Brush.woff);
+}
+
+@font-face {
+    font-family: amsterdam;
+    src: url(Tipografía/Amsterdam/Amsterdam\ 400.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --background-color: rgb(238, 216, 189);
+    --margin-left: 10px;
+    --margin-right: 10px;
+
+}
+
+:link {
+    text-decoration: none;
+}
+
+.fondo {
+    background-color: rgba(212, 180, 160, 255);
+}
+
+/* ----------------------------- paguina inicio ----------------------------- */
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.imagen_novedades {
+    width: 50%;
+}
+
+.imagen_nuestros_trabajos {
+    width: 50%;
+}
+
+
+.menu-1 {
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    /*display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+    align-items: center;*/
+    list-style: none;
+    position: relative;
+    top: -20px;
+    font-size: 2em;
+
+    margin-bottom: -80px;
+    text-align: center;
+}
+
+/*
+.palabra1{
+    background-color: lightblue;
+    padding: 20px 5px;
+
+}
+.palabra2{
+    background-color: lightsalmon;
+    padding: 20px 5px;
+}
+
+.palabra3{
+    background-color: lightgreen;
+    padding: 20px 5px;
+}
+
+.palabra4{
+    background-color: lightslategray;
+    padding: 20px 5px;
+}
+
+.palabra5{
+    background-color: lightcyan;
+    padding: 20px 5px;
+}
+/*
+.novedades {
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 10px;
+    padding-top: 100px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.imagen_corte {
+    width: 30%;
+}
+
+.nuestros-trabajos {
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 10px;
+    padding-top: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.estructura-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* --------------------------- Fin paguina inicio --------------------------- */
+
+
+
+
+
+
+/* -------------------------------- Servicios ------------------------------- */
+
+.titulo-nuestros {
+    color: rgb(88, 71, 67);
+    font-family: brittany;
+    text-align: center;
+    font-size: 600%;
+    padding-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.corte {
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 10px;
+    padding-top: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.nutricion {
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 10px;
+    padding-top: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+/* ------------------------------ FIN SERVICIOS ----------------------------- */
+
+
+
+
+
+
+
+
+/* -------------------------------- Productos ------------------------------- */
+
+.fondo-productos {
+    background-color: #F3E9DD;
+    position: relative;
+    bottom: 100px;
+}
+
+.linea {
+    background-color: rgb(134, 83, 49);
+    padding: 3px;
+    position: relative;
+    top: 100px
+}
+
+.titulo-productos {
+    background-color: #F3E9DD;
+    color: rgb(88, 71, 67);
+    font-family: brittany;
+    text-align: center;
+    font-size: 500%;
+    padding-top: 80px;
+    margin: 100px 0;
+}
+
+
+
+
+.rulas-lacias {
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo-rulas {
+    font-family: amsterdam;
+    font-size: 400%;
+}
+
+.titulo-lacias {
+    font-family: amsterdam;
+    font-size: 400%;
+}
+
+.bekim {
+    font-family: 'Quicksand', sans-serif;
+    font-size: x-large;
+    background-color: rgba(240, 128, 128, 0.527);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr repeat(2 1fr) 2fr repeat(2 1fr) 2fr repeat(2 1fr) 2fr repeat(2 1fr);
+    column-gap: 50px;
+    grid-template-areas:
+        "img1 img2 img3 img4"
+        "titulo1 titulo2 titulo3 titulo4"
+        "desc1 desc2 desc3 desc4"
+
+        "img5 img6 img7 img8"
+        "titulo5 titulo6 titulo7 titulo8"
+        "desc5 desc6 desc7 desc8"
+
+        "img9 img10 img11 img12"
+        "titulo9 titulo10 titulo11 titulo12"
+        "desc9 desc10 desc11 desc12";
+
+    margin: 0 20px;
+    padding: 60px 0;
+    list-style: none;
+    text-align: center;
+}
+
+/* ------------------------ Primer Linea de productos ----------------------- */
+
+/*
+.img1 img,
+.img2 img,
+.img3 img,
+.img4 img,
+.img5 img,
+.img6 img,
+.img7 img,
+.img8 img,
+.img9 img,
+.img10 img,
+.img11 img {
+    width: 100%;
+    border-radius: 15px;
+
+}
+*/
+
+.bimg img {
+    min-height: fit-content;
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+/* -------------------- separacion arriba entre filas -------------------- */
+.img4 img,
+.img5 img,
+.img6 img,
+.img7 img,
+.img8 img,
+.img9 img,
+.img10 img,
+.img11 img {
+    margin-top: 10px;
+}
+
+
+.titulo-desc {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    margin-top: 10px 0;
+
+}
+
+/* ------------------------ Primer lina de productos ------------------------ */
+.img1 {
+    grid-area: img1;
+}
+
+.img2 {
+    grid-area: img2;
+}
+
+.img3 {
+    grid-area: img3;
+}
+
+.titulo1 {
+    grid-area: titulo1;
+}
+
+.titulo2 {
+    grid-area: titulo2;
+}
+
+.titulo3 {
+    grid-area: titulo3;
+}
+
+.desc1 {
+    grid-area: desc1;
+}
+
+.desc2 {
+    grid-area: desc2;
+}
+
+.desc3 {
+    grid-area: desc3;
+}
+
+
+/* ----------------------- Segunda linea de productos ----------------------- */
+.img4 {
+    grid-area: img4;
+}
+
+.img5 {
+    grid-area: img5;
+}
+
+.img6 {
+    grid-area: img6;
+}
+
+.titulo4 {
+    grid-area: titulo4;
+}
+
+.titulo5 {
+    grid-area: titulo5;
+}
+
+.titulo6 {
+    grid-area: titulo6;
+}
+
+.desc4 {
+    grid-area: desc4;
+}
+
+.desc5 {
+    grid-area: desc5;
+}
+
+.desc6 {
+    grid-area: desc6;
+}
+
+/* ----------------------- Tercer linea de productos ----------------------- */
+.img7 {
+    grid-area: img7;
+}
+
+.img8 {
+    grid-area: img8;
+}
+
+.img9 {
+    grid-area: img9;
+}
+
+.titulo7 {
+    grid-area: titulo7;
+}
+
+.titulo8 {
+    grid-area: titulo8;
+}
+
+.titulo9 {
+    grid-area: titulo9;
+}
+
+.desc7 {
+    grid-area: desc7;
+}
+
+.desc8 {
+    grid-area: desc8;
+}
+
+.desc9 {
+    grid-area: desc9;
+}
+
+/* ----------------------- Cuarta linea de productos ----------------------- */
+
+.img10 {
+    grid-area: img10;
+}
+
+.img11 {
+    grid-area: img11;
+}
+
+.img12 {
+    grid-area: img12;
+}
+
+.titulo10 {
+    grid-area: titulo10;
+}
+
+.titulo11 {
+    grid-area: titulo11;
+}
+
+.titulo12 {
+    grid-area: titulo12;
+}
+
+.desc10 {
+    grid-area: desc10;
+}
+
+.desc11 {
+    grid-area: desc11;
+}
+
+.desc12 {
+    grid-area: desc12;
+}
+
+.han {
+    font-family: 'Quicksand', sans-serif;
+    font-size: x-large;
+    background-color: rgba(240, 128, 128, 0.527);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contenedor2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr repeat(2 1fr) 2fr repeat(2 1fr) 2fr repeat(2 1fr) 2fr repeat(2 1fr) 2fr repeat(2 1fr) 2fr repeat(2 1fr);
+    column-gap: 50px;
+    grid-template-areas:
+        "himg1 himg2 himg3 himg4"
+        "htitulo1 htitulo2 htitulo3 htitulo4"
+        "hdesc1 hdesc2 hdesc3 hdesc4"
+
+        "himg5 himg6 himg7 himg8"
+        "htitulo5 htitulo6 htitulo7 htitulo8"
+        "hdesc5 hdesc6 hdesc7 hdesc8"
+
+        "himg9 himg10 himg11 himg12"
+        "htitulo9 htitulo10 htitulo11 htitulo12"
+        "hdesc9 hdesc10 hdesc11 hdesc12"
+
+        "himg13 himg14 himg15 himg16"
+        "htitulo13 htitulo14 htitulo15 htitulo16"
+        "hdesc13 hdesc14 hdesc15 hdesc16"
+
+        "himg17 himg18 himg19 himg20"
+        "htitulo17 htitulo18 htitulo19 htitulo20"
+        "hdesc17 hdesc18 hdesc19 hdesc20"
+        
+        "himg21 himg22 himg23 himg24"
+        "htitulo21 htitulo22 htitulo23 htitulo24"
+        "hdesc21 hdesc22 hdesc23 hdesc24";
+
+    margin: 0 20px;
+    padding: 60px 0;
+    list-style: none;
+    text-align: center;
+}
+
+/* ------------------------ Primer Linea de productos ----------------------- */
+.himg1 img,
+.himg2 img,
+.himg3 img,
+.himg4 img,
+.himg5 img,
+.himg6 img,
+.himg7 img,
+.himg8 img,
+.himg9 img,
+.himg10 img,
+.himg11 img {
+
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+/* -------------------- separacion arriba entre filas -------------------- */
+.himg4 img,
+.himg5 img,
+.himg6 img,
+.himg7 img,
+.himg8 img,
+.himg9 img,
+.himg10 img,
+.himg11 img {
+    margin-top: 10px;
+}
+
+
+
+/* ------------------------ Primer lina de productos ------------------------ */
+.himg1 {
+    grid-area: himg1;
+}
+
+.himg2 {
+    grid-area: himg2;
+}
+
+.himg3 {
+    grid-area: himg3;
+}
+
+.himg4 {
+    grid-area: himg4;
+}
+
+.htitulo1 {
+    grid-area: htitulo1;
+}
+
+.htitulo2 {
+    grid-area: htitulo2;
+}
+
+.htitulo3 {
+    grid-area: htitulo3;
+}
+
+.htitulo4 {
+    grid-area: htitulo4;
+}
+
+.hdesc1 {
+    grid-area: hdesc1;
+}
+
+.hdesc2 {
+    grid-area: hdesc2;
+}
+
+.hdesc3 {
+    grid-area: hdesc3;
+}
+
+.hdesc4 {
+    grid-area: hdesc4;
+}
+
+/* ----------------------- Segunda linea de productos ----------------------- */
+
+
+.himg5 {
+    grid-area: himg5;
+}
+
+.himg6 {
+    grid-area: himg6;
+}
+
+.himg7 {
+    grid-area: himg7;
+}
+
+.himg8 {
+    grid-area: himg8;
+}
+
+.htitulo5 {
+    grid-area: htitulo5;
+}
+
+.htitulo6 {
+    grid-area: htitulo6;
+}
+
+.htitulo7 {
+    grid-area: htitulo7;
+}
+
+.htitulo8 {
+    grid-area: htitulo8;
+}
+
+.hdesc5 {
+    grid-area: hdesc5;
+}
+
+.hdesc6 {
+    grid-area: hdesc6;
+}
+
+.hdesc7 {
+    grid-area: hdesc7;
+}
+
+.hdesc8 {
+    grid-area: hdesc8;
+}
+
+/* ----------------------- Tercer linea de productos ----------------------- */
+
+
+.himg9 {
+    grid-area: himg9;
+}
+
+.himg10 {
+    grid-area: himg10;
+}
+
+.himg11 {
+    grid-area: himg11;
+}
+
+.himg12 {
+    grid-area: himg12;
+}
+
+.htitulo9 {
+    grid-area: htitulo9;
+}
+
+.htitulo10 {
+    grid-area: htitulo10;
+}
+
+.htitulo11 {
+    grid-area: htitulo11;
+}
+
+.htitulo12 {
+    grid-area: htitulo12;
+}
+
+.hdesc9 {
+    grid-area: hdesc9;
+}
+
+.hdesc10 {
+    grid-area: hdesc10;
+}
+
+.hdesc11 {
+    grid-area: hdesc11;
+}
+
+.hdesc12 {
+    grid-area: hdesc12;
+}
+
+/* ----------------------- Cuarta linea de productos ----------------------- */
+
+
+.himg13 {
+    grid-area: himg13;
+}
+
+.himg14 {
+    grid-area: himg14;
+}
+
+.himg15 {
+    grid-area: himg15;
+}
+
+.himg16 {
+    grid-area: himg16;
+}
+
+.htitulo13 {
+    grid-area: htitulo13;
+}
+
+.htitulo14 {
+    grid-area: htitulo14;
+}
+
+.htitulo15 {
+    grid-area: htitulo15;
+}
+
+.htitulo16 {
+    grid-area: htitulo16;
+}
+.hdesc13 {
+    grid-area: hdesc13;
+}
+
+.hdesc14 {
+    grid-area: hdesc14;
+}
+
+.hdesc15 {
+    grid-area: hdesc15;
+}
+.hdesc16 {
+    grid-area: hdesc16;
+}
+
+/* ------------------------ Quinta linea de productos ----------------------- */
+
+.himg17 {
+    grid-area: himg17;
+}
+
+.himg18 {
+    grid-area: himg18;
+}
+
+.himg19 {
+    grid-area: himg19;
+}
+
+.himg20 {
+    grid-area: himg20;
+}
+
+.htitulo17 {
+    grid-area: htitulo17;
+}
+
+.htitulo18 {
+    grid-area: htitulo18;
+}
+
+.htitulo19 {
+    grid-area: htitulo19;
+}
+
+.htitulo20 {
+    grid-area: htitulo20;
+}
+.hdesc17 {
+    grid-area: hdesc17;
+}
+
+.hdesc18 {
+    grid-area: hdesc18;
+}
+
+.hdesc19 {
+    grid-area: hdesc19;
+}
+.hdesc20 {
+    grid-area: hdesc20;
+}
+
+/* ------------------------ Sexta linea de productos ----------------------- */
+
+.himg21 {
+    grid-area: himg21;
+}
+
+.himg22 {
+    grid-area: himg22;
+}
+
+.himg23 {
+    grid-area: himg23;
+}
+
+.himg24 {
+    grid-area: himg24;
+}
+
+.htitulo21 {
+    grid-area: htitulo21;
+}
+
+.htitulo22 {
+    grid-area: htitulo22;
+}
+
+.htitulo23 {
+    grid-area: htitulo23;
+}
+
+.htitulo24 {
+    grid-area: htitulo24;
+}
+.hdesc21 {
+    grid-area: hdesc21;
+}
+
+.hdesc22 {
+    grid-area: hdesc22;
+}
+
+.hdesc23 {
+    grid-area: hdesc23;
+}
+.hdesc24 {
+    grid-area: hdesc24;
+}
+
+
+
+.linea2 {
+    background-color: rgb(134, 83, 49);
+    padding: 3px;
+    position: relative;
+}
+
+/* ------------------------------ Fin Productos ----------------------------- */
+
+
+
+
+
+
+
+
+
+/* -------------------------------- RuliTips -------------------------------- */
+
+.titulo-rulitips {
+    color: rgb(88, 71, 67);
+    font-family: brittany;
+    text-align: center;
+    font-size: 800%;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+/* --------------------------------  Fin RuliTips -------------------------------- */
+
+
+
+
+
+/* ----------------------------- Inicio Contacto ---------------------------- */
+
+.cuerpo-contacto{
+    margin:  100px 10px;
+}
+
+.titulo-contacto{
+    font-family: 'Quicksand', sans-serif;
+    font-size: x-large;
+    padding: 10px;
+}
+
+.contacto-instagram{
+
+    font-family: 'Quicksand', sans-serif;
+
+}
+.mapa{
+    width: 100%;
+    height: auto;
+
+}
+/* ------------------------------ Fin Contacto ------------------------------ */
+
+
+
+
+
+
+/* ---------------------------- Inicio Rulipedia ---------------------------- */
+
+
+.titulo-rulipedia {
+    color: rgb(88, 71, 67);
+    font-family: brittany;
+    text-align: center;
+    font-size: 800%;
+    margin: 100px 0;
+}
+
+
+.rulipedia {
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 10px;
+    padding-top: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+
+.rulipedia1 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cuadrado {
+    background-color: var(--background-color);
+    margin-left: var(--margin-left);
+    margin-right: var(--margin-right);
+}
+
+.cuadrado1 {
+    background-color: var(--background-color);
+    margin-left: var(--margin-left);
+    margin-right: var(--margin-right);
+}
+
+.cuadrado2 {
+    background-color: var(--background-color);
+    margin-left: var(--margin-left);
+    margin-right: var(--margin-right);
+}
+
+.cuadrado3 {
+    background-color: var(--background-color);
+    margin-left: var(--margin-left);
+    margin-right: var(--margin-right);
+}
+
+.cuadrado4 {
+    background-color: var(--background-color);
+    margin-left: var(--margin-left);
+    margin-right: var(--margin-right);
+}
+
+.isla {
+    margin-left: 20%;
+}
+
+.isla-reves {
+    margin-right: 20%;
+}
+
+/* ---------------------------- Fin Rulipedia ---------------------------- */
+
+/* --------------------------------- FOOTER --------------------------------- */
+
+/* ----------------------- Ver como sacar los puntitos ---------------------- */
+.nav-footer {
+
+    font-family: 'Quicksand', sans-serif;
+    list-style: none;
+    font-size: 1rem;
+    margin-left: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+.palabra-footer {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.logo-footer {
+    width: 30%;
+    display: flex;
+    margin: auto;
+}
+
+.instagram {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+.instagram img {
+    width: 100px;
+}
+
+/* ------------------------------- Fin Footer ------------------------------- */
