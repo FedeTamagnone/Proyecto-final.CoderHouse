@@ -72,7 +72,7 @@
 }
 
 
-.palabra1{
+.palabra1, .palabra2, .palabra3, .palabra4, .palabra5{
     background-color: lightblue;
     padding: 20px 5px;
     transition: background-color 0.5s;
@@ -80,29 +80,24 @@
 }
 
 .palabra1:hover{
-    background-color: rgb(167, 55, 11);
+    background-color: lightcoral;
     
 }
-
-.palabra2{
-    background-color: lightsalmon;
-    padding: 20px 5px;
+.palabra2:hover{
+    background-color: lightcoral;
+}
+.palabra3:hover{
+    background-color: lightcoral;
 }
 
-.palabra3{
-    background-color: lightgreen;
-    padding: 20px 5px;
+.palabra4:hover{
+    background-color: lightcoral;
 }
 
-.palabra4{
-    background-color: lightslategray;
-    padding: 20px 5px;
+.palabra5:hover{
+    background-color: lightcoral;
 }
 
-.palabra5{
-    background-color: lightcyan;
-    padding: 20px 5px;
-}
 
 .novedades {
     font-family: 'Quicksand', sans-serif;
