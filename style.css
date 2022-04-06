@@ -98,7 +98,6 @@
     background-color: lightcoral;
 }
 
-
 .novedades {
     font-family: 'Quicksand', sans-serif;
     margin-left: 10px;
@@ -202,8 +201,8 @@
 
 
 
-
-.rulas-lacias {
+/* ------------ Esto no lo voy a poner pero lo dejo por las dudas ----------- */
+/*.rulas-lacias {
     display: flex;
     justify-content: space-around;
 }
@@ -216,8 +215,8 @@
 .titulo-lacias {
     font-family: amsterdam;
     font-size: 400%;
-}
-
+}*/
+/* ------------ Esto no lo voy a poner pero lo dejo por las dudas ----------- */
 .bekim {
     font-family: 'Quicksand', sans-serif;
     font-size: x-large;
