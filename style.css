@@ -52,14 +52,15 @@
 
 .menu-1 {
     font-family: 'Quicksand', sans-serif;
-    display: flex;
+    /*display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: wrap;*/
 
-    /*display: grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 
-    align-items: center;*/
+
+    align-items: center;
     list-style: none;
     position: relative;
     top: -20px;
@@ -69,32 +70,34 @@
     text-align: center;
 }
 
-/*
-.palabra1{
+
+.palabra1, .palabra2, .palabra3, .palabra4, .palabra5{
     background-color: lightblue;
     padding: 20px 5px;
+    transition: background-color 0.5s;
 
 }
-.palabra2{
-    background-color: lightsalmon;
-    padding: 20px 5px;
+
+.palabra1:hover{
+    background-color: lightcoral;
+    
+}
+.palabra2:hover{
+    background-color: lightcoral;
+}
+.palabra3:hover{
+    background-color: lightcoral;
 }
 
-.palabra3{
-    background-color: lightgreen;
-    padding: 20px 5px;
+.palabra4:hover{
+    background-color: lightcoral;
 }
 
-.palabra4{
-    background-color: lightslategray;
-    padding: 20px 5px;
+.palabra5:hover{
+    background-color: lightcoral;
 }
 
-.palabra5{
-    background-color: lightcyan;
-    padding: 20px 5px;
-}
-/*
+
 .novedades {
     font-family: 'Quicksand', sans-serif;
     margin-left: 10px;
@@ -194,8 +197,8 @@
 }
 
 
-
-
+/* ----------------- Ya no lo uso pero lo dejo por las dudas ---------------- */
+/*
 .rulas-lacias {
     display: flex;
     justify-content: space-around;
@@ -210,6 +213,7 @@
     font-family: amsterdam;
     font-size: 400%;
 }
+*/
 
 .bekim {
     font-family: 'Quicksand', sans-serif;
