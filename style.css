@@ -29,6 +29,7 @@
 
 :link {
     text-decoration: none;
+
 }
 
 .fondo {
@@ -52,14 +53,15 @@
 
 .menu-1 {
     font-family: 'Quicksand', sans-serif;
-    display: flex;
+    /*display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: wrap;*/
 
-    /*display: grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 
-    align-items: center;*/
+
+    align-items: center;
     list-style: none;
     position: relative;
     top: -20px;
@@ -69,12 +71,19 @@
     text-align: center;
 }
 
-/*
+
 .palabra1{
     background-color: lightblue;
     padding: 20px 5px;
+    transition: background-color 0.5s;
 
 }
+
+.palabra1:hover{
+    background-color: rgb(167, 55, 11);
+    
+}
+
 .palabra2{
     background-color: lightsalmon;
     padding: 20px 5px;
@@ -94,7 +103,7 @@
     background-color: lightcyan;
     padding: 20px 5px;
 }
-/*
+
 .novedades {
     font-family: 'Quicksand', sans-serif;
     margin-left: 10px;
@@ -102,7 +111,9 @@
     letter-spacing: 2px;
     font-weight: bold;
     font-size: x-large;
+
 }
+
 
 .imagen_corte {
     width: 30%;
@@ -115,6 +126,7 @@
     letter-spacing: 2px;
     font-weight: bold;
     font-size: x-large;
+
 }
 
 .estructura-footer {
