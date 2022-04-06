@@ -217,6 +217,7 @@
     font-size: 400%;
 }*/
 /* ------------ Esto no lo voy a poner pero lo dejo por las dudas ----------- */
+
 .bekim {
     font-family: 'Quicksand', sans-serif;
     font-size: x-large;
@@ -301,6 +302,10 @@
 /* ------------------------ Primer lina de productos ------------------------ */
 .img1 {
     grid-area: img1;
+
+    background-image: url(multimedia/Bekim/bekim-img1.jpg);
+    background-size: contain;
+
 }
 
 .img2 {
