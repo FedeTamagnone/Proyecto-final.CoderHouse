@@ -41,6 +41,10 @@
     justify-content: center;
 }
 
+header h2 a {
+    color: black;
+}
+
 .imagen_novedades {
     width: 50%;
 }
@@ -49,12 +53,13 @@
     width: 50%;
 }
 
+nav ul li a {
+    color: black;
+}
 
 .menu-1 {
     font-family: 'Quicksand', sans-serif;
-    /*display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;*/
+
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -68,34 +73,81 @@
 
     margin-bottom: -80px;
     text-align: center;
+
+}
+
+.boton {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .menu-1 {
+        display: none;
+    }
+
+    .boton {
+        display: flex;
+        background-color: lightblue;
+        margin-bottom: -80px;
+
+    }
+
+    .logo {
+        display: flex;
+        justify-content: end;
+    }
+
+    div a img {
+        width: 200px;
+    }
+
+    div .logo-footer {
+        display: none;
+    }
+
+    .estructura-footer {
+        padding-top: 50px;
+    }
 }
 
 
-.palabra1, .palabra2, .palabra3, .palabra4, .palabra5{
+
+.palabra1,
+.palabra2,
+.palabra3,
+.palabra4,
+.palabra5 {
     background-color: lightblue;
     padding: 20px 5px;
     transition: background-color 0.5s;
 
 }
 
-.palabra1:hover{
+.palabra1:hover {
+
     background-color: lightcoral;
-    
+
 }
-.palabra2:hover{
-    background-color: lightcoral;
-}
-.palabra3:hover{
+
+.palabra2:hover {
     background-color: lightcoral;
 }
 
-.palabra4:hover{
+.palabra3:hover {
     background-color: lightcoral;
 }
 
-.palabra5:hover{
+.palabra4:hover {
     background-color: lightcoral;
 }
+
+.palabra5:hover {
+    background-color: lightcoral;
+}
+
+
+
+
 
 
 .novedades {
@@ -481,7 +533,7 @@
         "himg17 himg18 himg19 himg20"
         "htitulo17 htitulo18 htitulo19 htitulo20"
         "hdesc17 hdesc18 hdesc19 hdesc20"
-        
+
         "himg21 himg22 himg23 himg24"
         "htitulo21 htitulo22 htitulo23 htitulo24"
         "hdesc21 hdesc22 hdesc23 hdesc24";
@@ -709,6 +761,7 @@
 .htitulo16 {
     grid-area: htitulo16;
 }
+
 .hdesc13 {
     grid-area: hdesc13;
 }
@@ -720,6 +773,7 @@
 .hdesc15 {
     grid-area: hdesc15;
 }
+
 .hdesc16 {
     grid-area: hdesc16;
 }
@@ -757,6 +811,7 @@
 .htitulo20 {
     grid-area: htitulo20;
 }
+
 .hdesc17 {
     grid-area: hdesc17;
 }
@@ -768,6 +823,7 @@
 .hdesc19 {
     grid-area: hdesc19;
 }
+
 .hdesc20 {
     grid-area: hdesc20;
 }
@@ -805,6 +861,7 @@
 .htitulo24 {
     grid-area: htitulo24;
 }
+
 .hdesc21 {
     grid-area: hdesc21;
 }
@@ -816,6 +873,7 @@
 .hdesc23 {
     grid-area: hdesc23;
 }
+
 .hdesc24 {
     grid-area: hdesc24;
 }
@@ -862,26 +920,28 @@
 
 /* ----------------------------- Inicio Contacto ---------------------------- */
 
-.cuerpo-contacto{
-    margin:  100px 10px;
+.cuerpo-contacto {
+    margin: 100px 10px;
 }
 
-.titulo-contacto{
+.titulo-contacto {
     font-family: 'Quicksand', sans-serif;
     font-size: x-large;
     padding: 10px;
 }
 
-.contacto-instagram{
+.contacto-instagram {
 
     font-family: 'Quicksand', sans-serif;
 
 }
-.mapa{
+
+.mapa {
     width: 100%;
     height: auto;
 
 }
+
 /* ------------------------------ Fin Contacto ------------------------------ */
 
 
@@ -991,7 +1051,7 @@
 .instagram {
     display: flex;
     justify-content: flex-end;
-    padding-right: 10px;
+    padding-right: 15px;
 }
 
 .instagram img {
