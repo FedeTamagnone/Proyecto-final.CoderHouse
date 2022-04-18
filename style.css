@@ -80,37 +80,53 @@ nav ul li a {
     display: none;
 }
 
+
+/* ---------------------------------- Media --------------------------------- */
+
 @media screen and (max-width: 1000px) {
+
     .menu-1 {
-        display: none;
+
+        font-family: 'Quicksand', sans-serif;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        justify-content: space-around;
+
+        font-size: small;
+        margin-top: 15px;
+        background-color: lightblue;
     }
 
+    .palabra1,
+    .palabra2,
+    .palabra3,
+    .palabra4,
+    .palabra5 {
+        background-color: lightblue;
+        padding: 10px 5px;
+        transition: background-color 0.5s;
+
+    }
+
+    /*
     .boton {
         display: flex;
         background-color: lightblue;
         margin-bottom: -80px;
 
-    }
-
+    }*/
     .logo {
         display: flex;
-        justify-content: end;
+        justify-content: center;
     }
 
     div a img {
         width: 200px;
     }
 
-    div .logo-footer {
-        display: none;
-    }
-
-    .estructura-footer {
-        padding-top: 50px;
-    }
 }
 
-
+/* ---------------------------------- Fin Media --------------------------------- */
 
 .palabra1,
 .palabra2,
@@ -1024,6 +1040,7 @@ nav ul li a {
 /* --------------------------------- FOOTER --------------------------------- */
 
 /* ----------------------- Ver como sacar los puntitos ---------------------- */
+
 .nav-footer {
 
     font-family: 'Quicksand', sans-serif;
@@ -1046,6 +1063,7 @@ nav ul li a {
     width: 30%;
     display: flex;
     margin: auto;
+    padding-top: 100px;
 }
 
 .instagram {
@@ -1058,4 +1076,20 @@ nav ul li a {
     width: 100px;
 }
 
+/* ---------------------------------- Media --------------------------------- */
+
+@media screen and (max-width: 1000px) {
+    div .logo-footer {
+        display: none;
+    }
+
+    .instagram img {
+        width: 50px;
+        position: relative;
+        bottom: -50px;
+    }
+    .estructura-footer {
+        padding-top: 50px;
+    }
+}
 /* ------------------------------- Fin Footer ------------------------------- */
