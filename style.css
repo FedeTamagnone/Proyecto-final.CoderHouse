@@ -45,6 +45,7 @@ header h2 a {
     color: black;
 }
 
+
 .imagen_novedades {
     width: 50%;
 }
@@ -70,7 +71,7 @@ nav ul li a {
     position: relative;
     top: -20px;
     font-size: 2em;
-
+    margin-left: -30px;
     margin-bottom: -80px;
     text-align: center;
 
@@ -168,11 +169,18 @@ nav ul li a {
 
 .novedades {
     font-family: 'Quicksand', sans-serif;
+    font-size: 150%;
+    margin: 10px 0;
     margin-left: 10px;
     padding-top: 100px;
     letter-spacing: 2px;
     font-weight: bold;
-    font-size: x-large;
+
+}
+
+.carrusel-novedades{
+    background-color: white;
+    display: block;
 }
 
 .imagen_corte {
@@ -181,11 +189,13 @@ nav ul li a {
 
 .nuestros-trabajos {
     font-family: 'Quicksand', sans-serif;
+    font-size: 150%;
+    margin: 10px 0;
     margin-left: 10px;
     padding-top: 10px;
     letter-spacing: 2px;
     font-weight: bold;
-    font-size: x-large;
+
 }
 
 .estructura-footer {
@@ -240,50 +250,13 @@ nav ul li a {
 
 
 /* -------------------------------- Productos ------------------------------- */
-@media screen and (max-width: 1000px) {
 
-    .titulo-productos {
-        display: flex;
-        justify-content: center;
-        background-color: #F3E9DD;
-        color: rgb(88, 71, 67);
-        font-family: brittany;
-    
-        font-size: 10px;
-        padding: 100px;
-    }
-
-    .contenedor {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 2fr repeat(2 1fr) 2fr repeat(2 1fr) 2fr repeat(2 1fr) ;
-        column-gap: 30px;
-        grid-template-areas:
-            "img1 img2 img3 "
-            "titulo1 titulo2 titulo3 "
-            "desc1 desc2 desc3 "
-    
-            "img5 img6 img7 "
-            "titulo5 titulo6 titulo7 "
-            "desc5 desc6 desc7 "
-    
-            "img9 img10 img11 "
-            "titulo9 titulo10 titulo11 "
-            "desc9 desc10 desc11 ";
-    
-        margin: 0 20px;
-        padding: 60px 0;
-        list-style: none;
-        text-align: center;
-    }
-    
-}
 
 .fondo-productos {
     background-color: #F3E9DD;
     position: relative;
     bottom: 100px;
-    
+
 }
 
 
@@ -302,7 +275,7 @@ nav ul li a {
     font-family: brittany;
     text-align: center;
     font-size: 500%;
-    padding:130px;
+    padding: 130px;
 }
 
 
@@ -554,6 +527,7 @@ nav ul li a {
 .desc12 {
     grid-area: desc12;
 }
+
 
 .han {
     font-family: 'Quicksand', sans-serif;
@@ -943,6 +917,64 @@ nav ul li a {
     position: relative;
 }
 
+
+@media screen and (max-width: 1000px) {
+
+    .titulo-productos {
+        display: flex;
+        justify-content: center;
+        background-color: #F3E9DD;
+        color: rgb(88, 71, 67);
+        font-family: brittany;
+        font-size: 250%;
+        padding: 80px;
+        margin-top: 10px;
+    }
+
+    .contenedor {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 2fr repeat(2 1fr) 2fr repeat(2 1fr) 2fr repeat(2 1fr);
+        column-gap: 30px;
+        grid-template-areas:
+            "img1 img2 img3 "
+            "titulo1 titulo2 titulo3 "
+            "desc1 desc2 desc3 "
+
+            "img4 img5 img6 "
+            "titulo4 titulo5 titulo6 "
+            "desc4 desc5 desc6 "
+
+            "img7 img8 img9 "
+            "titulo7 titulo8 titulo9 "
+            "desc7 desc8 desc9 "
+
+            "img10 img11 img12 "
+            "titulo10 titulo11 titulo12 "
+            "desc10 desc11 desc12 ";
+
+        margin: 0 20px;
+        padding: 60px 0;
+        list-style: none;
+        text-align: center;
+    }
+
+    .contenedor2 {
+        display: none;
+    }
+
+    .bekim {
+        font-family: 'Quicksand', sans-serif;
+        font-size: x-large;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        margin-top: 30px;
+        margin-bottom: -30px;
+    }
+}
+
 /* ------------------------------ Fin Productos ----------------------------- */
 
 
@@ -1129,8 +1161,10 @@ nav ul li a {
         position: relative;
         bottom: -50px;
     }
+
     .estructura-footer {
         padding-top: 50px;
     }
 }
+
 /* ------------------------------- Fin Footer ------------------------------- */
