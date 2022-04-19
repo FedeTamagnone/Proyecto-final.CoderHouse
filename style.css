@@ -71,7 +71,7 @@ nav ul li a {
     position: relative;
     top: -20px;
     font-size: 2em;
-    margin-left: -30px;
+    margin-left: -10px;
     margin-bottom: -80px;
     text-align: center;
 
@@ -927,7 +927,7 @@ nav ul li a {
         color: rgb(88, 71, 67);
         font-family: brittany;
         font-size: 200%;
-        padding: 80px 50px;
+        padding: 80px 0px;
         margin-top: 10px;
     }
 
@@ -970,7 +970,7 @@ nav ul li a {
         display: flex;
         justify-content: center;
         padding: 10px;
-        margin-top: 30px;
+        margin-top: 40px;
         margin-bottom: -30px;
     }
 }
@@ -989,17 +989,28 @@ nav ul li a {
 
 .titulo-rulitips {
     color: rgb(88, 71, 67);
+    background-color: #F3E9DD;
     font-family: brittany;
     text-align: center;
     font-size: 800%;
     padding-top: 100px;
+    letter-spacing: 2px;
     margin-bottom: 100px;
 }
 
-
-
-
-
+@media screen and (max-width: 1000px) {
+    .titulo-rulitips{
+        display: block;
+        justify-content: center;
+        background-color: #F3E9DD;
+        color: rgb(88, 71, 67);
+        font-family: brittany;
+        letter-spacing: 2px;
+        font-size: 300%;
+        padding-top: 70px ;
+        margin-top: 10px;
+}
+}
 
 /* --------------------------------  Fin RuliTips -------------------------------- */
 
@@ -1043,10 +1054,13 @@ nav ul li a {
 
 .titulo-rulipedia {
     color: rgb(88, 71, 67);
+    background-color: #F3E9DD;
     font-family: brittany;
     text-align: center;
     font-size: 800%;
-    margin: 100px 0;
+    padding-top: 100px;
+    letter-spacing: 2px;
+    margin-bottom: 100px;
 }
 
 
@@ -1108,6 +1122,19 @@ nav ul li a {
     margin-right: 20%;
 }
 
+@media screen and (max-width: 1000px) {
+    .titulo-rulipedia{
+        display: block;
+        justify-content: center;
+        background-color: #F3E9DD;
+        color: rgb(88, 71, 67);
+        font-family: brittany;
+        letter-spacing: 2px;
+        font-size: 300%;
+        padding-top: 70px ;
+        margin-top: 10px;
+}
+}
 /* ---------------------------- Fin Rulipedia ---------------------------- */
 
 /* --------------------------------- FOOTER --------------------------------- */
