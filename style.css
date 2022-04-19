@@ -39,6 +39,7 @@
 .logo {
     display: flex;
     justify-content: center;
+
 }
 
 header h2 a {
@@ -70,7 +71,8 @@ nav ul li a {
     margin-left: -10px;
     margin-bottom: -80px;
     text-align: center;
-
+    transition-property: all;
+    transition-duration: 1s;
 }
 
 /* ---------------------------------- Media --------------------------------- */
@@ -85,6 +87,8 @@ nav ul li a {
         font-size: small;
         margin-top: 15px;
         background-color: lightblue;
+        transition-property: all;
+        transition-duration: 1s;
     }
 
     .palabra1,
@@ -210,6 +214,7 @@ nav ul li a {
     padding-top: 100px;
     letter-spacing: 2px;
     margin-bottom: 100px;
+
 }
 
 .corte {
@@ -242,6 +247,9 @@ nav ul li a {
         padding-top: 70px;
         margin-top: 10px;
         padding-bottom: 30px;
+        transition-property: all;
+        transition-duration: 1s;
+
     }
 }
 
@@ -1014,6 +1022,8 @@ nav ul li a {
         font-size: 300%;
         padding-top: 70px;
         margin-top: 10px;
+        transition-property: all;
+        transition-duration: 1s;
     }
 }
 
@@ -1139,6 +1149,8 @@ nav ul li a {
         font-size: 300%;
         padding-top: 70px;
         margin-top: 10px;
+        transition-property: all;
+        transition-duration: 1s;
     }
 }
 
