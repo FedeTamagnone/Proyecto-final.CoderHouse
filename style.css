@@ -60,39 +60,28 @@ nav ul li a {
 
 .menu-1 {
     font-family: 'Quicksand', sans-serif;
-
-
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-
-
     align-items: center;
     list-style: none;
     position: relative;
     top: -20px;
     font-size: 2em;
-    margin-left: -30px;
+    margin-left: -10px;
     margin-bottom: -80px;
     text-align: center;
 
 }
-
-.boton {
-    display: none;
-}
-
 
 /* ---------------------------------- Media --------------------------------- */
 
 @media screen and (max-width: 1000px) {
 
     .menu-1 {
-
         font-family: 'Quicksand', sans-serif;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         justify-content: space-around;
-
         font-size: small;
         margin-top: 15px;
         background-color: lightblue;
@@ -178,7 +167,7 @@ nav ul li a {
 
 }
 
-.carrusel-novedades{
+.carrusel-novedades {
     background-color: white;
     display: block;
 }
@@ -214,12 +203,13 @@ nav ul li a {
 
 .titulo-nuestros {
     color: rgb(88, 71, 67);
+    background-color: #F3E9DD;
     font-family: brittany;
     text-align: center;
-    font-size: 600%;
+    font-size: 800%;
     padding-top: 100px;
+    letter-spacing: 2px;
     margin-bottom: 100px;
-
 }
 
 .corte {
@@ -238,6 +228,21 @@ nav ul li a {
     letter-spacing: 2px;
     font-weight: bold;
     font-size: x-large;
+}
+
+@media screen and (max-width: 1000px) {
+    .titulo-nuestros {
+        display: block;
+        justify-content: center;
+        background-color: #F3E9DD;
+        color: rgb(88, 71, 67);
+        font-family: brittany;
+        letter-spacing: 2px;
+        font-size: 200%;
+        padding-top: 70px;
+        margin-top: 10px;
+        padding-bottom: 30px;
+    }
 }
 
 /* ------------------------------ FIN SERVICIOS ----------------------------- */
@@ -921,13 +926,13 @@ nav ul li a {
 @media screen and (max-width: 1000px) {
 
     .titulo-productos {
-        display: flex;
+        display: block;
         justify-content: center;
         background-color: #F3E9DD;
         color: rgb(88, 71, 67);
         font-family: brittany;
-        font-size: 250%;
-        padding: 80px;
+        font-size: 200%;
+        padding: 80px 0px;
         margin-top: 10px;
     }
 
@@ -935,7 +940,7 @@ nav ul li a {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 2fr repeat(2 1fr) 2fr repeat(2 1fr) 2fr repeat(2 1fr);
-        column-gap: 30px;
+        column-gap: 20px;
         grid-template-areas:
             "img1 img2 img3 "
             "titulo1 titulo2 titulo3 "
@@ -953,8 +958,8 @@ nav ul li a {
             "titulo10 titulo11 titulo12 "
             "desc10 desc11 desc12 ";
 
-        margin: 0 20px;
-        padding: 60px 0;
+        margin: 0 8px;
+        padding: 50px 0;
         list-style: none;
         text-align: center;
     }
@@ -970,7 +975,7 @@ nav ul li a {
         display: flex;
         justify-content: center;
         padding: 10px;
-        margin-top: 30px;
+        margin-top: 40px;
         margin-bottom: -30px;
     }
 }
@@ -989,17 +994,28 @@ nav ul li a {
 
 .titulo-rulitips {
     color: rgb(88, 71, 67);
+    background-color: #F3E9DD;
     font-family: brittany;
     text-align: center;
     font-size: 800%;
     padding-top: 100px;
+    letter-spacing: 2px;
     margin-bottom: 100px;
 }
 
-
-
-
-
+@media screen and (max-width: 1000px) {
+    .titulo-rulitips {
+        display: block;
+        justify-content: center;
+        background-color: #F3E9DD;
+        color: rgb(88, 71, 67);
+        font-family: brittany;
+        letter-spacing: 2px;
+        font-size: 300%;
+        padding-top: 70px;
+        margin-top: 10px;
+    }
+}
 
 /* --------------------------------  Fin RuliTips -------------------------------- */
 
@@ -1020,10 +1036,11 @@ nav ul li a {
 }
 
 .contacto-instagram {
-
     font-family: 'Quicksand', sans-serif;
-
+    margin-bottom: 10px;
 }
+
+
 
 .mapa {
     width: 100%;
@@ -1043,10 +1060,13 @@ nav ul li a {
 
 .titulo-rulipedia {
     color: rgb(88, 71, 67);
+    background-color: #F3E9DD;
     font-family: brittany;
     text-align: center;
     font-size: 800%;
-    margin: 100px 0;
+    padding-top: 100px;
+    letter-spacing: 2px;
+    margin-bottom: 100px;
 }
 
 
@@ -1106,6 +1126,20 @@ nav ul li a {
 
 .isla-reves {
     margin-right: 20%;
+}
+
+@media screen and (max-width: 1000px) {
+    .titulo-rulipedia {
+        display: block;
+        justify-content: center;
+        background-color: #F3E9DD;
+        color: rgb(88, 71, 67);
+        font-family: brittany;
+        letter-spacing: 2px;
+        font-size: 300%;
+        padding-top: 70px;
+        margin-top: 10px;
+    }
 }
 
 /* ---------------------------- Fin Rulipedia ---------------------------- */
