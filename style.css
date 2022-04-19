@@ -60,12 +60,8 @@ nav ul li a {
 
 .menu-1 {
     font-family: 'Quicksand', sans-serif;
-
-
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-
-
     align-items: center;
     list-style: none;
     position: relative;
@@ -77,22 +73,15 @@ nav ul li a {
 
 }
 
-.boton {
-    display: none;
-}
-
-
 /* ---------------------------------- Media --------------------------------- */
 
 @media screen and (max-width: 1000px) {
 
     .menu-1 {
-
         font-family: 'Quicksand', sans-serif;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         justify-content: space-around;
-
         font-size: small;
         margin-top: 15px;
         background-color: lightblue;
@@ -178,7 +167,7 @@ nav ul li a {
 
 }
 
-.carrusel-novedades{
+.carrusel-novedades {
     background-color: white;
     display: block;
 }
@@ -214,12 +203,13 @@ nav ul li a {
 
 .titulo-nuestros {
     color: rgb(88, 71, 67);
+    background-color: #F3E9DD;
     font-family: brittany;
     text-align: center;
-    font-size: 600%;
+    font-size: 800%;
     padding-top: 100px;
+    letter-spacing: 2px;
     margin-bottom: 100px;
-
 }
 
 .corte {
@@ -238,6 +228,21 @@ nav ul li a {
     letter-spacing: 2px;
     font-weight: bold;
     font-size: x-large;
+}
+
+@media screen and (max-width: 1000px) {
+    .titulo-nuestros {
+        display: block;
+        justify-content: center;
+        background-color: #F3E9DD;
+        color: rgb(88, 71, 67);
+        font-family: brittany;
+        letter-spacing: 2px;
+        font-size: 200%;
+        padding-top: 70px;
+        margin-top: 10px;
+        padding-bottom: 30px;
+    }
 }
 
 /* ------------------------------ FIN SERVICIOS ----------------------------- */
@@ -999,7 +1004,7 @@ nav ul li a {
 }
 
 @media screen and (max-width: 1000px) {
-    .titulo-rulitips{
+    .titulo-rulitips {
         display: block;
         justify-content: center;
         background-color: #F3E9DD;
@@ -1007,9 +1012,9 @@ nav ul li a {
         font-family: brittany;
         letter-spacing: 2px;
         font-size: 300%;
-        padding-top: 70px ;
+        padding-top: 70px;
         margin-top: 10px;
-}
+    }
 }
 
 /* --------------------------------  Fin RuliTips -------------------------------- */
@@ -1031,10 +1036,11 @@ nav ul li a {
 }
 
 .contacto-instagram {
-
     font-family: 'Quicksand', sans-serif;
-
+    margin-bottom: 10px;
 }
+
+
 
 .mapa {
     width: 100%;
@@ -1123,7 +1129,7 @@ nav ul li a {
 }
 
 @media screen and (max-width: 1000px) {
-    .titulo-rulipedia{
+    .titulo-rulipedia {
         display: block;
         justify-content: center;
         background-color: #F3E9DD;
@@ -1131,10 +1137,11 @@ nav ul li a {
         font-family: brittany;
         letter-spacing: 2px;
         font-size: 300%;
-        padding-top: 70px ;
+        padding-top: 70px;
         margin-top: 10px;
+    }
 }
-}
+
 /* ---------------------------- Fin Rulipedia ---------------------------- */
 
 /* --------------------------------- FOOTER --------------------------------- */
